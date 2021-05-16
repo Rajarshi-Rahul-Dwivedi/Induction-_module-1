@@ -2,14 +2,15 @@ body {
     background-color: azure;
     margin: 20px;
     font-family: Verdana, Geneva;
+    color : blue;
 
 }
-div {
+#details{
     margin-top: 20px;
    }
-h1{
+#heading{
     font-size: 40px;
 }
-h3 {
-    color: 88ff22;
+.parag {
+    color: rgb(136,255,34);
 }
