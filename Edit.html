@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <title>my resume</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    </head>
+    <body style="color: black;">
+        
+        <form action="savedetails.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" name="name"><br>
+            <label for="ph">Phone number:</label><br>
+            <input type="text"name="ph" placeholder="+91"><br><hr>
+            <label for="gender">Select Gender</label>
+            <select name="gender">
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+            </select>
+            <h4>Synopsis</h4>
+            <textarea name="synopsis"cols="60" rows="10"></textarea><br>
+            <h4>Select Hobbies</h4>
+            <select name="hobies" multiple>
+                <option value="sport" >Sports</option>
+                <option value="video" >Video Games</option>
+                <option value="anim" >Animation and design</option>
+                <option value="tw" >Time Wasting</option>
+            </select>
+            <br>
+            <h4>Input Scores</h4>
+            <label for="SSLC">SSLC:</label><br>
+            <input type="text" name="SSLC"><br>
+            <label for="HSC">HSC:</label><br>
+            <input type="text" name="HSC"><br>
+            <label for="Bachelors">Bachelors:</label><br>
+            <input type="text" name="Bachelors"><br>
+            <button type="submit" value="submit">Submit</button>
+        </form>
+    </body>
+</html>
